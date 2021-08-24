@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NotFoundContainer = styled.div`
+export const SearchContainer = styled.div`
     background-color: white;
     border-radius: 8px;
     height: 100px;

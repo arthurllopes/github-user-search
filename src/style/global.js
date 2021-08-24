@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
         display: grid;
         gap: 18px;
         grid-template-areas: 
-        "input input input"
+        "form form form"
         "user info info"
         "user projects projects";
     }

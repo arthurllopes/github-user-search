@@ -1,16 +1,17 @@
 import React from 'react'
-import { HeaderContainer } from './HeaderStyle'
+import { Context } from '../../hook/useGitHub'
+import { FormContainer } from './HeaderStyle'
 
 const Header = () => {
-    const [user, setUser] = React.useState('')
-    function handleClick(){
-        
-    }
+    const {user, setUser, handleClick} = React.useContext(Context)
     return (
-        <HeaderContainer >
-            <input type="text" value={user} onChange={(event => setUser(event.target.value))}/>
-            <button onClick={handleClick}>Search</button>
-        </HeaderContainer >
+        <FormContainer onSubmit={handleClick} >
+            <input type="text"
+            value={user}
+            onChange={(event => setUser(event.target.value))}
+            placeholder="Busque por usuários do GitHub" />
+            <button type="submit">Search</button>
+        </FormContainer >
     )
 }
 

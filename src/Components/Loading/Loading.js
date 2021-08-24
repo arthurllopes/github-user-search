@@ -1,10 +1,13 @@
 import React from 'react'
+import { LoadingContainer } from './LoadingStyle'
 
 const Loading = () => {
     return (
-        <div>
-            TA CARREGANDO
-        </div>
+        <LoadingContainer>
+            <h3>
+                Loading...
+            </h3>
+        </LoadingContainer>
     )
 }
 

@@ -1,22 +1,19 @@
 import React from 'react';
-//import NotFound from './Components/NotFound/NotFound';
-import Header from './Components/Header/Header';
-import Projects from './Components/Projects/Projects';
-import User from './Components/User/User';
-//import Loading from './Components/Loading/Loading';
-import Info from './Components/Info/Info';
 import { GlobalStyle } from "./style/global";
+import { ContextStorage } from './hook/useGitHub';
+import Main from './Components/Main/Main';
+import Header from './Components/Header/Header';
 
 function App() {
 
   return (
-    <div className="main">
+    <ContextStorage>
       <GlobalStyle />
-      <Header />
-      <User />
-      <Info />
-      <Projects />
-    </div>
+      <div className="main">
+        <Header />
+        <Main />
+      </div>
+    </ContextStorage>
   );
 }
 

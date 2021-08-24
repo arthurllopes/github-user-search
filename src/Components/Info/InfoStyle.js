@@ -7,7 +7,8 @@ export const InfoContainer = styled.div`
     align-self: flex-start;
     grid-area: info;
     height: fit-content;
-    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
 `
 export const Card = styled.div`
     background-color: white;
