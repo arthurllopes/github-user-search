@@ -1,4 +1,4 @@
-# Github-user-serach
+# github-user-search
 
 Projeto para estudo. Foco principal nas funcionalidades do React, e apenas alguma estilização para facilitar na visualização.
 
@@ -8,7 +8,7 @@ Projeto para estudo. Foco principal nas funcionalidades do React, e apenas algum
 ## Projeto 
  - É possível buscar por usuários do GitHub. Será renderizado na tela algumas informações gerais, lista dos últimos repositórios e uma tag 'Open to Work' caso o usuário não esteja em alguma company.
 
-https://user-images.githubusercontent.com/82395681/130547119-aebf86ea-1409-479b-b253-0101cf899357.mp4
+[demo](https://user-images.githubusercontent.com/82395681/130547119-aebf86ea-1409-479b-b253-0101cf899357.mp4)
 
 
 ## 💻 Tecnologias
