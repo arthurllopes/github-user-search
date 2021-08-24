@@ -1,7 +1,7 @@
 import React from 'react'
 import { UserContainer, Status } from './UserStyle'
 import { MdBusiness, MdLocationOn, MdEmail } from "react-icons/md";
-import { Context } from '../../hook/useGitHub';
+import { Context } from '../../context/GitHubContext';
 
 const User = () => {
     const { info } = React.useContext(Context)

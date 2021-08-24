@@ -38,8 +38,6 @@ export const ContextStorage = ({children}) => {
         setUser('')
     }
 
-
-
     return (
     <Context.Provider value={{user, setUser, handleClick, info, projects, loading, initial, error}}>
         {children}

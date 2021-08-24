@@ -1,6 +1,6 @@
 import React from 'react';
 import { GlobalStyle } from "./style/global";
-import { ContextStorage } from './hook/useGitHub';
+import { ContextStorage } from './context/GitHubContext';
 import Main from './Components/Main/Main';
 import Header from './Components/Header/Header';
 

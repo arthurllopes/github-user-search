@@ -1,5 +1,5 @@
 import React from 'react'
-import { Context } from '../../hook/useGitHub'
+import { Context } from '../../context/GitHubContext'
 import { FormContainer } from './HeaderStyle'
 
 const Header = () => {

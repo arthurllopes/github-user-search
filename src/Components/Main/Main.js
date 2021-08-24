@@ -2,7 +2,7 @@ import React from 'react'
 import Info from '../Info/Info'
 import Projects from '../Projects/Projects'
 import User from '../User/User'
-import { Context } from '../../hook/useGitHub';
+import { Context } from '../../context/GitHubContext';
 import Loading from '../Loading/Loading';
 import NotFound from '../NotFound/NotFound';
 import InitialState from '../InitialState/InitialState';

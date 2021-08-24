@@ -2,7 +2,7 @@ import React from 'react'
 import { InfoContainer, Card } from './InfoStyle'
 import { GoRepo } from 'react-icons/go';
 import { FiUsers, FiUserPlus } from 'react-icons/fi';
-import { Context } from '../../hook/useGitHub';
+import { Context } from '../../context/GitHubContext';
 
 const Info = () => {
     const { info } = React.useContext(Context)
